@@ -1,0 +1,23 @@
+:root {
+    --padding: 0.9375rem;
+    --wrap: 106.25rem;
+    --min-width: 20rem;
+    // font-family
+    --font-family_Montserrat: "Montserrat", sans-serif;
+    --font-family_Lato: "Lato", sans-serif;
+    --color-black: rgb(0, 0, 0);
+    --color-white: rgb(255, 255, 255);
+}
+// class for theme
+.default-theme {
+    --color-green: rgb(43, 122, 43);
+    --color-gray: rgb(128, 128, 128);
+}
+.dark-theme {
+    --color-green: rgb(146, 52, 52);
+    --color-gray: rgb(105, 57, 57);
+}
+.yellow-theme {
+    --color-green: rgb(160, 160, 64);
+    --color-gray: rgb(131, 127, 77);
+}
