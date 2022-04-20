@@ -39,8 +39,8 @@ module.exports = {
     module: {
         rules: [
             {
-            test: /\.html$/i,
-            loader: "html-loader",
+                test: /\.html$/i,
+                loader: "html-loader",
             },
             {
                 test: /\.(sa|sc|c)ss$/,
@@ -67,7 +67,12 @@ module.exports = {
                     //     presets: ['@babel/preset-env']
                     // }
                 }
-            }
+            },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
         ]
     },
 }
