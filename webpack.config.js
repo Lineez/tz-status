@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'production') {
 module.exports = {
     mode: mode,
     entry: {
-        scripts: './src/js/index.js',
+        scripts: './src/js/index.ts',
     },
     output: {
         filename: '[name].[contenthash].js',
