@@ -11,6 +11,9 @@ module.exports = {
     entry: {
         scripts: './src/js/index.ts',
     },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+    },
     output: {
         filename: '[name].[contenthash].js',
         assetModuleFilename: "assets/[hash][ext][query]",
@@ -35,7 +38,8 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "./src/index.html"
-        })],
+        }),
+    ],
     module: {
         rules: [
             {

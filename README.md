@@ -1,4 +1,5 @@
 # Start using for a new project
+node 14.18.2
 Clone the repo
 Run npm i (yarn) to install dependencies
 Run commands in terminal:
